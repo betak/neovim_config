@@ -15,6 +15,8 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 " fugitive
 Plug 'tpope/vim-fugitive'
+" nerdtree
+Plug 'scrooloose/nerdtree'
 
 call plug#end()
 
