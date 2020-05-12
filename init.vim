@@ -21,10 +21,12 @@ Plug 'scrooloose/nerdtree'
 Plug 'liuchengxu/vim-better-default'
 " cscope
 Plug 'joe-skb7/cscope-maps'
+" ctags sidebar
+Plug 'majutsushi/tagbar'
 
 call plug#end()
 
-colorscheme hashpunk-lapis
+colorscheme simpleblue
 
 " vim-better-default parameters and default values
 " vim_better_default_minimum              Only add essential funationalities 0
