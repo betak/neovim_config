@@ -23,10 +23,12 @@ Plug 'liuchengxu/vim-better-default'
 Plug 'joe-skb7/cscope-maps'
 " ctags sidebar
 Plug 'majutsushi/tagbar'
+" rainbow parentheses
+Plug 'kien/rainbow_parentheses.vim'
 
 call plug#end()
 
-colorscheme simpleblue
+colorscheme simplicity-darker
 
 " vim-better-default parameters and default values
 " vim_better_default_minimum              Only add essential funationalities 0
