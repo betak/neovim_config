@@ -96,7 +96,7 @@ call s:highlight('Error', s:MainColor, s:clear, s:underline)
 call s:highlight('Todo', s:MainColor, s:clear, s:none)
 
 call s:highlight('Directory', s:Grey93, s:clear, s:bold)
-call s:highlight('CursorLine', s:Grey93, s:clear, s:bold)
+call s:highlight('CursorLine', s:clear, s:clear, s:none)
 call s:highlight('MatchParen', s:MainColor, s:Grey93, s:none)
 call s:highlight('ColorColumn', s:MainColor, s:Grey15, s:none)
 
@@ -104,11 +104,11 @@ call s:highlight('ColorColumn', s:MainColor, s:Grey15, s:none)
 " Interface highlighting
 call s:highlight('Normal', s:Grey93, s:Grey7, s:none)
 call s:highlight('Visual', s:Grey7, s:Grey66, s:bold)
-call s:highlight('Cursor', s:clear, s:Grey93, s:none)
+call s:highlight('Cursor', s:Grey7, s:Grey93, s:none)
 call s:highlight('iCursor', s:clear, s:Grey0, s:none)
 call s:highlight('LineNr', s:Grey66, s:clear, s:none)
 call s:highlight('NonText', s:Grey66, s:clear, s:none)
-call s:highlight('CursorLineNr', s:Grey0, s:Grey7, s:none)
+call s:highlight('CursorLineNr', s:Grey93, s:Grey7, s:none)
 call s:highlight('VertSplit', s:Grey15, s:clear, s:none)
 
 " Pmenu
