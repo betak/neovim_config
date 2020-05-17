@@ -80,14 +80,14 @@ if has("autocmd")
   " ----------  qmake : set filetype for *.pro  ----------
   autocmd BufNewFile,BufRead *.pro  set filetype=qmake
 
-  autocmd filetype c,cpp,h so $HOME/.vim/simnow.vim
+  autocmd filetype c,cpp,h so $HOME/.config/nvim/indent/work.vim
   autocmd filetype c,cpp,h set cindent
 
-  autocmd filetype python so $HOME/.vim/python.vim
+  autocmd filetype python so $HOME/.config/nvim/indent/python.vim
   autocmd filetype python set cindent
 
-  autocmd bufenter,bufnew  *.diff so $HOME/.vim/simnow.vim
+  autocmd bufenter,bufnew  *.diff so $HOME/.config/nvim/indent/work.vim
 
   autocmd bufread,bufnew *.bsg setfiletype xml
-  autocmd bufread,bufnew *.bsg so $HOME/.vim/simnow.vim
+  autocmd bufread,bufnew *.bsg so $HOME/.config/nvim/indent/work.vim
 endif " has("autocmd")
